@@ -2,7 +2,7 @@ var nomePersonagem = " Paladino Alado "
 var qtdeXp = 19999  
 
 
-
+function calcularNivel() {
 switch (true) {
   case qtdeXp <= 1000:
     console.log("O Herói de nome"+ nomePersonagem + "está no nível Ferro")
@@ -28,5 +28,6 @@ switch (true) {
   case qtdeXp >= 10001:
     console.log("O Herói de nome"+ nomePersonagem + "está no nível Radiante")
     break
-
 }
+}
+calcularNivel()
